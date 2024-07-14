@@ -1,4 +1,4 @@
-> Les [groupes](./Groupes.md)
+
 
 # SAÉ S2.04 (visualisation de données)
 
@@ -21,7 +21,7 @@ Le niveau d'éducation est codé par un entier :
 | 3 | PhD |
 
 # Attendus 
-> La saé est à réaliser en binôme. Vous devez m'envoyer un [mail](mailto:monnerat@u-pec.fr) (objet : [SAE]) avec :
+> La saé est à réaliser en binôme. Vous devez m'envoyer un mail avec :
 > - les noms du binôme,
 > - l'url du dépôt git.
 
@@ -30,7 +30,7 @@ Vous devez produire :
 - Les script(s) scilab qui calculent/affichent les réponses demandées.
 - Un compte rendu en markdown sur votre dépot git avec les commandes et les réponses (y compris les graphes).
 
-**Le tout est à rendre au plus tard  le 17 juin (23h59).**
+
 
 # Ex 1 
 1. Donnez sous forme de camembert la répartition des genres.
