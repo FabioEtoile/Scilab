@@ -7,7 +7,8 @@
 Le fichier contenant le script est [distributionAges.sce](distributionAges.sce)
 
 ```scilab
-path = '~/SAE_MATHS_23/data.csv';
+path = '~/Scilab/data.csv';
+
 
 // Lire le fichier CSV
 data = csvRead(path, ',', 'double'); 
@@ -39,7 +40,8 @@ Le fichier contenant le script est [distributionExperience.sce](distributionExpe
 
 ```scilab
 // Chemin vers le fichier CSV
-path = '~/SAE_MATHS_23/data.csv';
+path = '~/Scilab/data.csv';
+
 
 data = csvRead(path, ',', 'double'); // Lire les données en tant que doubles
 
@@ -67,7 +69,8 @@ xs2png(gcf(), filename);
 Le fichier contenant le script est [donnéesAge.sce](donnéesAge.sce)
 
 ```scilab
-path = '~/SAE_MATHS_23/data.csv';
+path = '~/Scilab/data.csv';
+
 data = csvRead(path, ',', 'double'); // Assurez-vous que les données sont lues comme des nombres réels
 
 // Extraire la colonne des âges qui est la deuxième colonne
@@ -132,7 +135,8 @@ disp("Écart interquartile (IQR) : " + string(iqr_age));
 Le fichier contenant le script est [moustacheAge.sce](moustacheAge.sce)
 
 ```scilab
-path = '~/SAE_MATHS_23/data.csv';
+path = '~/Scilab/data.csv';
+
 data = csvRead(path, ',', 'double'); // Assurez-vous que les données sont lues comme des nombres réels
 
 // Extraire la colonne des âges qui est la deuxième colonne
@@ -163,7 +167,8 @@ xs2png(gcf(), filename);
 Le fichier contenant le script est [donéesExperience.sce](donéesExperience.sce)
 
 ```scilab
-path = '~/SAE_MATHS_23/data.csv';
+path = '~/Scilab/data.csv';
+
 data = csvRead(path, ',', 'double'); // Assurez-vous que les données sont lues comme des nombres réels
 
 // Extraire la colonne des années d'expérience qui est la sixième colonne
@@ -229,7 +234,8 @@ disp("Écart interquartile (IQR) : " + string(iqr_exp));
 Le fichier contenant le script est [moustacheExperience.sce](moustacheExperience.sce)
 
 ```scilab
-path = '~/SAE_MATHS_23/data.csv';
+path = '~/Scilab/data.csv';
+
 data = csvRead(path, ',', 'double');
 
 // Extraire la colonne des années d'expérience qui est la sixième colonne

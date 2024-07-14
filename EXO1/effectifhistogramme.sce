@@ -1,5 +1,6 @@
 // Chemin vers le fichier CSV
-chemin = '~/SAE_MATHS_23/data.csv';
+chemin = '~/Scilab/data.csv';
+
 
 // Lire le fichier CSV
 donnees = read_csv(chemin, ',');

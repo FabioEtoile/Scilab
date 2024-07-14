@@ -8,7 +8,7 @@ Le fichier contenant le script est [distributionSalairesGenres.sce](distribution
 
 ```scilab
 // Lire le fichier CSV
-data = csvRead('~/SAE_MATHS_23/data.csv', ',', '.', 'string');
+data = csvRead('~/Scilab/data.csv', ',', '.', 'string');
 
 // Extraire les colonnes nécessaires
 salaire = evstr(data(:, 7));
@@ -55,7 +55,7 @@ Le fichier contenant le script est [salaireNiveauEtudes.sce](salaireNiveauEtudes
 
 ```scilab
 // Lire le fichier CSV
-data = read_csv('~/SAE_MATHS_23/data.csv', ',');
+data = read_csv( '~/Scilab/data.csv', ',');
 
 // Extraire les colonnes nécessaires
 salaire = evstr(data(:, 7));
@@ -97,7 +97,7 @@ xs2png(gcf(), filename);
 Le fichier contenant le script est [donnéesSalaire.sce](donnéesSalaire.sce)
 
 ```scilab
-path = '~/SAE_MATHS_23/data.csv';
+path = '~/Scilab/data.csv';
 data = csvRead(path, ',', 'double'); 
 salaries = data(:, 7);
 
@@ -160,7 +160,7 @@ disp("Écart interquartile (IQR) : " + string(iqr_salary));
 Le fichier contenant le script est [moustacheSalaire.sce](moustacheSalaire.sce)
 
 ```scilab
-path = '~/SAE_MATHS_23/data.csv';
+path = '~/Scilab/data.csv';
 data = csvRead(path, ',', 'double'); 
 
 // Extraire la colonne des salaires qui est la septieme colonne
@@ -188,7 +188,7 @@ Le fichier contenant le script est [boiteMoustacheGenre.sce](boiteMoustacheGenre
 
 ```scilab
 // Lire le fichier CSV
-data = read_csv('~/SAE_MATHS_23/data.csv', ',');
+data = read_csv( '~/Scilab/data.csv', ',');
 
 // Extraire les colonnes nécessaires
 salaire = evstr(data(:, 7));

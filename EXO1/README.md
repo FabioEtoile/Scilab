@@ -7,7 +7,7 @@
 Le fichier contenant le script est [camembertGenre.sce](camembertGenre.sce)
 
 ```scilab
-path = '~/SAE_MATHS_23/data.csv';
+path = '~/Scilab/data.csv';
 
 // Lire le fichier CSV
 data = read_csv(path, ',');
@@ -49,7 +49,7 @@ Le fichier contenant le script est [histogramme.sce](histogramme.sce)
 
 ```scilab
 // Chemin vers le fichier CSV
-chemin = '~/SAE_MATHS_23/data.csv';
+chemin = '~/Scilab/data.csv';
 
 // Lire le fichier CSV
 donnees = read_csv(chemin, ',');
@@ -109,7 +109,7 @@ Le fichier contenant le script est [effectifhistogramme.sce](effectifhistogramme
 
 ```scilab
 // Chemin vers le fichier CSV
-chemin = '~/SAE_MATHS_23/data.csv';
+chemin = '~/Scilab/data.csv';
 
 // Lire le fichier CSV
 donnees = read_csv(chemin, ',');
@@ -152,7 +152,7 @@ xstring(indices_top10, effectifs_top10, top10_metiers);
 Le fichier contenant le script est [profession.sce](profession.sce)
 ```scilab
 // Chemin vers le fichier CSV
-path = '~/SAE_MATHS_23/data.csv';
+path = '~/Scilab/data.csv';
 
 // Lire le fichier CSV
 data = read_csv(path, ',');
@@ -201,7 +201,7 @@ Le fichier contenant le script est [etudes.sce](etudes.sce)
 
 ```scilab
 // Chemin vers le fichier CSV
-path = '~/SAE_MATHS_23/data.csv';
+path = '~/Scilab/data.csv';
 
 // Lire le fichier CSV
 data = read_csv(path, ',');
@@ -284,7 +284,7 @@ Le fichier contenant le script est [genre.sce](genre.sce)
 
 ```scilab
 // Chemin vers le fichier CSV
-path = '~/SAE_MATHS_23/data.csv';
+path = '~/Scilab/data.csv';
 
 // Lire le fichier CSV
 data = read_csv(path, ',');

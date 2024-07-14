@@ -8,7 +8,7 @@ Le fichier contenant le script est [regressionAgeSalaire.sce](regressionAgeSalai
 
 ```scilab
 // Chemin du fichier CSV
-path = '~/SAE_MATHS_23/data.csv';
+path = '~/Scilab/data.csv';
 
 // Lire le fichier CSV
 data = csvRead(path, ',', 'double');
@@ -72,7 +72,7 @@ Le fichier contenant le script est [regressionExperienceSalaire.sce](regressionE
 
 ```scilab
 // Chemin du fichier CSV
-path = '~/SAE_MATHS_23/data.csv';
+path = '~/Scilab/data.csv';
 
 // Lire le fichier CSV
 data = csvRead(path, ',', 'double');

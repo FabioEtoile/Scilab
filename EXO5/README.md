@@ -8,7 +8,7 @@ Le fichier contenant le script est [régressionSalaireExpérienceGenre.sce](rég
 
 ```scilab
 // Chemin vers le fichier CSV
-chemin = '~/SAE_MATHS_23/data.csv';
+chemin = '~/Scilab/data.csv';
 
 // Lire le fichier CSV
 donnees = read_csv(chemin, ',');
@@ -74,7 +74,7 @@ Le fichier contenant le script est [régressionExpérienceSalaireEtude.sce](rég
 
 ```scilab
 // Chemin vers le fichier CSV
-chemin = '~/SAE_MATHS_23/data.csv';
+chemin = '~/Scilab/data.csv';
 
 // Lire le fichier CSV
 donnees = read_csv(chemin, ',');

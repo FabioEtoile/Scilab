@@ -1,5 +1,5 @@
 // Chemin vers le fichier CSV
-path = '~/SAE_MATHS_23/data.csv';
+path = '~/Scilab/data.csv';
 
 data = csvRead(path, ',', 'double'); // Lire les données en tant que doubles
 

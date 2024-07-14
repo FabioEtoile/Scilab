@@ -1,4 +1,4 @@
-path = '~/SAE_MATHS_23/data.csv';
+path = '~/Scilab/data.csv';
 data = csvRead(path, ',', 'double');
 
 // Extraire la colonne des années d'expérience qui est la sixième colonne

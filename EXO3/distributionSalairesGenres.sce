@@ -1,5 +1,5 @@
 // Lire le fichier CSV
-data = csvRead('~/SAE_MATHS_23/data.csv', ',', '.', 'string');
+data = csvRead('~/Scilab/data.csv', ',', '.', 'string');
 
 // Extraire les colonnes nécessaires
 salaire = evstr(data(:, 7));
