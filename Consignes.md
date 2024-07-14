@@ -2,7 +2,7 @@
 
 # SAÉ S2.04 (visualisation de données)
 
-Le fichier [data.csv](data/data.csv)  contient une base de données des salariés d'une entreprise : pour chacun, on dispose de :
+Le fichier [data.csv](data.csv)  contient une base de données des salariés d'une entreprise : pour chacun, on dispose de :
 
 - id 
 - age
