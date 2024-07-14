@@ -17,6 +17,7 @@ Le projet est structuré dans plusieurs fichiers contenant chacun les réponses 
 - **[EXO3](EXO3)** Fichier contenant les réponses de l'exercice 3.
 - **[EXO4](EXO4)** Fichier contenant les réponses de l'exercice 4.
 - **[EXO5](EXO5)** Fichier contenant les réponses de l'exercice 5.
+- **[Consignes.md](Consignes.md)** Fichier en Markdown contenant les questions traitées.
 
 ## Instructions d'utilisation
 1. Téléchargez le fichier CSV contenant les données démographiques.
